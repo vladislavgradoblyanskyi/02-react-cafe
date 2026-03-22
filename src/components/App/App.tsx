@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import CreateCafeInfoMarkup from '../CafeInfo/CafeInfo'
+import CafeInfo from '../CafeInfo/CafeInfo'
 import VoteOptions from '../VoteOptions/VoteOptions'
 import VoteStats from '../VoteStats/VoteStats'
 import Notification from '../Notification/Notification'
@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className={css.app}>
-      <CreateCafeInfoMarkup />
+      <CafeInfo />
 
       <VoteOptions
         onVote={handleVote}
